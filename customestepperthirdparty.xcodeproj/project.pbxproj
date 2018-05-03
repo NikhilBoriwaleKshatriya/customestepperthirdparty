@@ -14,6 +14,7 @@
 		F15E754E209B230300B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E754C209B230300B42672 /* LaunchScreen.storyboard */; };
 		F15E7559209B230300B42672 /* customestepperthirdpartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E7558209B230300B42672 /* customestepperthirdpartyTests.swift */; };
 		F15E7564209B230300B42672 /* customestepperthirdpartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E7563209B230300B42672 /* customestepperthirdpartyUITests.swift */; };
+		F15E7572209B232700B42672 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E7571209B232700B42672 /* GMStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F15E755F209B230300B42672 /* customestepperthirdpartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customestepperthirdpartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15E7563209B230300B42672 /* customestepperthirdpartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customestepperthirdpartyUITests.swift; sourceTree = "<group>"; };
 		F15E7565209B230300B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E7571209B232700B42672 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F15E7543209B230300B42672 /* AppDelegate.swift */,
 				F15E7545209B230300B42672 /* ViewController.swift */,
+				F15E7571209B232700B42672 /* GMStepper.swift */,
 				F15E7547209B230300B42672 /* Main.storyboard */,
 				F15E754A209B230300B42672 /* Assets.xcassets */,
 				F15E754C209B230300B42672 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15E7546209B230300B42672 /* ViewController.swift in Sources */,
+				F15E7572209B232700B42672 /* GMStepper.swift in Sources */,
 				F15E7544209B230300B42672 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = customestepperthirdparty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.customestepperthirdparty;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = customestepperthirdparty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.customestepperthirdparty;
